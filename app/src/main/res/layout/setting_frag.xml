@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/teal_100">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:textColor="@color/purple_700"
+            android:fontFamily="cursive"
+            android:textSize="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/frEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/email"/>
+
+
+        <EditText
+            android:id="@+id/frContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/contact"
+            android:drawablePadding="5dp"
+            android:hint="contact"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save "
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/purple_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Change Password"
+            android:textColor="@color/purple_700"
+            android:fontFamily="cursive"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/frCurrentPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="current password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password"/>
+
+        <EditText
+            android:id="@+id/frNewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="new password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password"/>
+
+
+        <Button
+            android:id="@+id/buttonChangePassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Change Password"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/purple_700"/>
+
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"/>
+
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Delete Profile"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"/>
+
+
+</LinearLayout>
